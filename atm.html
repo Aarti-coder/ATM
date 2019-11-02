@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link href="atm.css" rel="stylesheet" type="text/css">
+		<script src="atm.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sub-container">
+				<h3>Store Amount</h3>
+				Enter the Notes of 2000 X <input type="text" class="noteClass" id="twoThousandNotes" value="10"/> = <p id="one"></p> <br>
+				Enter the Notes of 500 X <input type="text" class="noteClass" id="fiveHundredNotes" value="10"/>  = <p id="two"></p> <br>
+				Enter the Notes of 200 X <input type="text" class="noteClass" id="twoHundredNotes" value="10"/>  = <p id="three"></p> <br>
+				Enter the Notes of 100 X <input type="text" class="noteClass" id="HundredNotes" value="10"/> 	= <p id="four"></p> <br>
+				Total Amount is : <p id="add"></p><br>
+				 <button onclick="atmBackend()" class="btn">store Amount</button>
+			</div>
+			<div class="sub-container">
+				<h3>Cash Withdrawal</h3>
+				<p>Enter The Amount</p>
+				<input type = "text" id="totalAmount" />
+				<button onclick="atmFrontend()">Submit</button>
+			</div>
+		</div>
+	
+	</body>
+</html>

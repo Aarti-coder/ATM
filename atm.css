@@ -1,0 +1,28 @@
+.container{
+	width:100%;
+}
+h3{
+	text-align:center;
+}
+
+.sub-container{
+	text-align:center;
+	border: 1px solid black;
+	float: left;
+	width: 45%;
+	margin-left:40px;
+	padding-bottom:20px;
+}
+
+.noteClass{
+	margin-top:20px;
+	width: 70px;
+    background: lightgrey;
+}
+p{
+	display: inline-block;
+	margin-bottom: 0px !important;
+}
+.btn{
+	margin-top:20px;
+}
